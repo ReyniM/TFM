@@ -1,0 +1,13 @@
+urls:
+  listings: 'https://data.insideairbnb.com/united-states/ca/los-angeles/2024-03-11/visualisations/listings.csv'
+  crime: 'https://data.lacity.org/resource/2nrs-mtv8.csv'
+  comments: 'https://data.insideairbnb.com/united-states/ca/los-angeles/2024-06-07/data/reviews.csv.gz'
+adls_container_paths:
+  landing:
+    - 'tests/resources/csv/listings.csv'
+    - 'tests/resources/csv/crimes.csv'
+    - 'tests/resources/csv/comments.csv'
+  silver: 'silver/path'
+  gold: 'gold/path'
+google_key:
+  api_key: 'api-key'
