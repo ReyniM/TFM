@@ -1,0 +1,12 @@
+README.md
+setup.py
+data_pipeline/WebScrape.py
+data_pipeline/__init__.py
+data_pipeline/extras.py
+data_pipeline.egg-info/PKG-INFO
+data_pipeline.egg-info/SOURCES.txt
+data_pipeline.egg-info/dependency_links.txt
+data_pipeline.egg-info/requires.txt
+data_pipeline.egg-info/top_level.txt
+tests/tests_WebScrape.py
+tests/tests_extras.py

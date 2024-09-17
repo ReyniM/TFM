@@ -1,0 +1,18 @@
+urls:
+  listings: 'https://data.insideairbnb.com/united-states/ca/los-angeles/2024-03-11/visualisations/listings.csv'
+  crimes: 'https://data.lacity.org/resource/2nrs-mtv8.csv'
+  comments: 'https://data.insideairbnb.com/united-states/ca/los-angeles/2024-06-07/data/reviews.csv.gz'
+read_adls_container_paths:
+  bronze:
+    - 'abfss://mydata@modulosparkmasterucm.dfs.core.windows.net/tfm/last25/listings/'
+    - 'abfss://mydata@modulosparkmasterucm.dfs.core.windows.net/tfm/last25/crimes/'
+    - 'abfss://mydata@modulosparkmasterucm.dfs.core.windows.net/tfm/last25/comments/'
+write_adls_container_paths:
+  bronze:
+    - 'abfss://mydata@modulosparkmasterucm.dfs.core.windows.net/tfm/bronze_fuego/'
+  silver:
+    - 'abfss://mydata@modulosparkmasterucm.dfs.core.windows.net/tfm/silver_fuego/listings/'
+    - 'abfss://mydata@modulosparkmasterucm.dfs.core.windows.net/tfm/silver_fuego/crimes/'
+    - 'abfss://mydata@modulosparkmasterucm.dfs.core.windows.net/tfm/silver_fuego/comments/'
+google_key:
+  api_key: 'api-key'

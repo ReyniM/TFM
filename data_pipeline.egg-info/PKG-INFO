@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: data_pipeline
+Version: 1.0
+Summary: Data engine for my tfm project.
+Author: Reyni Manuel Calderon Cots
+Author-email: reynim16@gmail.com
+Requires-Dist: googlemaps==4.10.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.2
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: requests==2.32.3
